@@ -141,7 +141,7 @@ handleClick = (evt) => {
     msg = "Game was a tie!";
   }
 
-  if (msg !=== null) return endGame(msg);
+  if (msg !== null) return endGame(msg);
 
   // switch players
   currPlayer = (currPlayer === 1) ? 2 : 1;
