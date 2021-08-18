@@ -1,0 +1,72 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+  text-align: center;
+}
+
+table {
+  background-color: black;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  background-color: #060ce9;
+  text-align: center;
+
+  border: solid 4px black;
+  border-radius: 8%;
+
+  color: white;
+  font-size: larger;
+  font-style: bold;
+
+  width: 128px;
+  height: 128px;
+}
+
+.point-cell {
+  color: #ffd000;
+}
+
+.question-cell {
+  background-color: #115ff4;
+  color: #ffd000;
+}
+
+.answer-cell {
+  background-color: #28a200;
+  color: #ffd000;
+}
+
+.empty-cell {
+  background-color: black;
+}
+
+#head-cell {
+  border: solid 2px black;
+
+  text-transform: uppercase;
+}
+
+@keyframes loading {
+  0%   { filter: blur(0);   }
+  50%  { filter: blur(8px); }
+  100% { filter: blur(0);   }
+}
+
+.loading {
+  color: white;
+  text-shadow: 0 0 4px black;
+  font-size: 32px;
+  animation: loading 2s ease-out infinite;
+}
