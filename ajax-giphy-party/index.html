@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+  <style>
+    html {
+      background-color: #555;
+    }
+
+    h1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 32px;
+      color: white;
+    }
+
+    body {
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<h1>GIPHY PARTY</h1>
+
+<form id="form">
+  <input id="field" type="text" placeholder="Enter a search term">
+  <input id="search" type="submit" value="Search Giphy!">
+  <input id="random" type="button" value="Random Giphy!">
+  <input id="remove" type="button" value="Remove Images">
+</form>
+
+<div id="giphy-div">
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
