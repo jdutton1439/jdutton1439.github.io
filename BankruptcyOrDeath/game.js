@@ -23,7 +23,7 @@ function updateGame() {
 	const s = scenarios[Math.floor(Math.random() * scenarios.length)];
 	
 	result.classList.add("hide");
-	scenario.innerText = s;
+	scenario.innerHTML = s;
 }
 
 updateGame();
