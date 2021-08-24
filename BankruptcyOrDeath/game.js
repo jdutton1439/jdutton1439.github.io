@@ -1,4 +1,4 @@
-const scenario = document.getElementById("scenario-span");
+const scenario = document.getElementById("scenario");
 
 const bankruptcy = document.getElementById("bankruptcy");
 const death = document.getElementById("death");
